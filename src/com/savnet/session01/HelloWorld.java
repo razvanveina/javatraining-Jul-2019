@@ -2,6 +2,12 @@ package com.savnet.session01;
 
 import java.util.Scanner;
 
+/**
+ * Hello world
+ * 
+ * @author Razvan
+ *
+ */
 public class HelloWorld {
 
 	public static void main(String[] args) {
