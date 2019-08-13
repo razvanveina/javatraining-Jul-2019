@@ -3,6 +3,7 @@ package com.savnet.session06;
 public class StringUtils {
 	public static void main(String[] args) {
 		String result = capitalize("popescu ion");
+		capitalize("gheorghe hagi");
 		// return Popescu Ion
 		System.out.println(result);
 	}
