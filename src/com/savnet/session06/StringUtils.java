@@ -9,6 +9,13 @@ public class StringUtils {
 	}
 
 	private static String capitalize(String s) {
-		return null;
+		String[] arr = s.split(" ");
+		String result = "";
+		for (String ss : arr) {
+			String temp = ss.substring(0, 1).toUpperCase() + ss.substring(1).toLowerCase();
+			// System.out.println(temp);
+			result += temp + " ";
+		}
+		return result;
 	}
 }
