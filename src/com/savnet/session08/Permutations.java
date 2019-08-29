@@ -3,12 +3,12 @@ package com.savnet.session08;
 public class Permutations {
 	// abc, acb, bac, bca, cab, cba
 	public static void main(String[] args) {
-		showPermutations("", "abcd");
+		showPermutations("", "abc");
 	}
 
 	private static void showPermutations(String prefix, String s) {
-		if (s.isEmpty()) {
-			System.out.println(prefix);
+		if (s.length() == 1) {
+			System.out.println(prefix + s);
 		}
 		for (int i = 0; i < s.length(); i++) {
 			char ch = s.charAt(i);

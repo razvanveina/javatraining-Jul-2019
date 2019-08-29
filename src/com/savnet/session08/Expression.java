@@ -4,7 +4,7 @@ public class Expression {
 	public static void main(String[] args) {
 		System.out.println(evaluate("5+3*2-8/2"));
 		// System.out.println(evaluate("5+3-2"));
-		// exp(5+3-2) = exp(5) + exp(3-2) = exp(5) + exp(3) - exp(2)
+		// exp(5+3-2) = 5 + exp(3-2) = 5 + 3 - 2
 	}
 
 	private static int evaluate(String exp) {

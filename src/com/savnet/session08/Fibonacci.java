@@ -5,6 +5,7 @@ public class Fibonacci {
 		System.out.println(fibo(7));
 	}
 
+	// 0 1 1 2 3 5 8 13 21
 	private static int fibo(int n) {
 		if (n == 0) {
 			return 0;

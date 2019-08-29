@@ -6,14 +6,15 @@ public class Sum {
 	static int[] solution = new int[] {};
 
 	public static void main(String[] args) {
-		int[] arr = { 1, 2, 3, 4, 5, 6, 8, 10, 11 };
-		sum(arr, 20);
+		int[] arr = { 1, 2, 3, 4, 5 };
+		sum(arr, 10);
 	}
 
 	private static void sum(int[] arr, int n) {
+		System.out.println(Arrays.toString(solution));
 		// daca n este 0 am ajuns la solutie si o afisam
 		if (n == 0) {
-			System.out.println(Arrays.toString(solution));
+			System.out.println("!!!: " + Arrays.toString(solution));
 			return;
 		}
 
